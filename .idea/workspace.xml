@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f65d6771-d15f-4d24-b08f-5880b3c19392" name="Default Changelist" comment="" />
+    <list default="true" id="f65d6771-d15f-4d24-b08f-5880b3c19392" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB/DBAccess.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Environment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entites/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/entites/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ormTools.php" beforeDir="false" afterPath="$PROJECT_DIR$/ormTools.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +20,13 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WKdXMFc6j7ArKwrKCEhxcliCk9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -20,8 +34,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -45,7 +61,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578902258754</updated>
-      <workItem from="1578902259968" duration="4821000" />
+      <workItem from="1578902259968" duration="5655000" />
+      <workItem from="1578990910911" duration="2797000" />
+      <workItem from="1579012029829" duration="1421000" />
     </task>
     <servers />
   </component>
@@ -53,13 +71,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="751" y="335" key="NewPhpClassDialog" timestamp="1578925862301">
+    <state x="751" y="335" key="NewPhpClassDialog" timestamp="1579012214531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="751" y="335" key="NewPhpClassDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578925862301" />
+    <state x="751" y="335" key="NewPhpClassDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579012214531" />
     <state x="794" y="444" key="NewPhpFileDialog" timestamp="1578925854316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="444" key="NewPhpFileDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578925854316" />
+    <state x="791" y="231" key="RollbackChangesDialog" timestamp="1578990934880">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="791" y="231" key="RollbackChangesDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578990934880" />
+    <state x="461" y="163" key="SettingsEditor" timestamp="1578991743711">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="163" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578991743711" />
   </component>
 </project>

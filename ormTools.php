@@ -1,19 +1,13 @@
 <?php
 
-
 namespace ORMT;
 
 
-class ormTools
+use DB\DBAccess;
+
+class ormTools extends DBAccess
 {
     protected  $entity;
-
-    public function __construct($entity = null)
-    {
-        if ($entity == null){
-            $this->entity = $entity;
-        }
-    }
 
     function where($sorgu){
 
@@ -24,14 +18,25 @@ class ormTools
     }
 
     function all(){
+        $access = new DBAccess();
+        $conn = $access->startConn();
 
+        $conn->query("SELECT * FROM {$this->entity}");
     }
 
-    function take(){
+    function take($number, $order = "decs"){
+        $access = new DBAccess();
+        $conn = $access->startConn();
 
+        $conn->query("SELECT * FROM {$this->entity} ORDER BY {$order} LIMIT {$number}");
     }
 
-    function limit(){
+    function limit($limit){
+
+        $access = new DBAccess();
+        $conn = $access->startConn();
+
+        $conn->query("SELECT * FROM {$this->entity} LIMIT {$limit}");
 
     }
 

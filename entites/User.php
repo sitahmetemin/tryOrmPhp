@@ -8,11 +8,14 @@ use ORMT\ormTools;
 
 class User extends ormTools
 {
-    protected $table = "User";
 
-    protected $fillable = [
-        "name",
-        "lastname",
-        "pass"
-    ];
+    function __construct()
+    {
+        $this->entity = 'User';
+    }
+
+    protected $name;
+    protected $lastname;
+    protected $pass;
+    protected $email;
 }
